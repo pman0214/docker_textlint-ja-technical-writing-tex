@@ -32,7 +32,7 @@ curl -O -L https://github.com/pman0214/docker_textlint-ja-technical-writing-tex/
 ```
 
 ```bash
-docker run --rm -it -v $PWD:/app pman0214/textlint-ja-technical-writing-tex textlint *.tex > textlint_results.txt
+docker run --rm -it -v $PWD:/app pman0214/textlint-ja-technical-writing-tex textlint -f compact *.tex > textlint_results.txt
 ```
 
 ## Building
